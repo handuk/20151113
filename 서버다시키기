@@ -1,0 +1,19 @@
+ps -ax | grep opentsdb
+
+kill -9 pid
+
+cd /usr/local/data/h-base~/bin
+
+./stop.hbase
+
+자바로안되면 
+
+source /ect/profile?
+
+하고다시하면됨
+
+그리고 ./start.hbase
+
+하고 cd /usr/local/opentsdb
+
+가서 빌드다시하면됨
